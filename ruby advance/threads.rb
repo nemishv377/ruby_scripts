@@ -11,20 +11,20 @@
 #   end
 # end
 
-# def Geeks2
-#   b = 0
+def Geeks2
+  b = 0
 
-#   while b <= 3
-# 	  puts "Geeks2: #{b}"
+  while b <= 3
+	  puts "Geeks2: #{b}"
 
-#   	# to pause the execution of the current
-# 	  # thread for the specified time
-#   	sleep(0.5)
+  	# to pause the execution of the current
+	  # thread for the specified time
+  	sleep(0.5)
 
-# 	  # incrementing the value of a
-# 	  b = b + 1
-#   end
-# end
+	  # incrementing the value of a
+	  b = b + 1
+  end
+end
 
 # # creating thread for first method
 # x = Thread.new{Geeks1()}
