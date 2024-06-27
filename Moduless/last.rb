@@ -27,3 +27,5 @@ final.writer
 final.f
 puts Name::A
 puts "dfv"
+
+puts 'module last file in main'
