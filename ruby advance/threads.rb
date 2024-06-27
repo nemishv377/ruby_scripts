@@ -1,15 +1,15 @@
-# def Geeks1
-#   a = 0
-#   while a <= 3
-# 	  puts "Geeks1: #{a}"
+def Geeks1
+  a = 0
+  while a <= 3
+	  puts "Geeks1: #{a}"
 
-# 	  # to pause the execution of the current
-# 	  # thread for the specified time
-# 	  sleep(1)
+	  # to pause the execution of the current
+	  # thread for the specified time
+	  sleep(1)
 
-# 	  a = a + 1
-#   end
-# end
+	  a = a + 1
+  end
+end
 
 def Geeks2
   b = 0
