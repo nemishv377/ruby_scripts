@@ -19,6 +19,13 @@ include Job
   end
 end
 
+module Job
+  def editor
+  end
+  def writer
+  end
+end
+
 final=Combo.new
 final.bella
 final.ana
