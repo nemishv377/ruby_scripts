@@ -26,6 +26,13 @@ module Job
   end
 end
 
+class Combo
+include Name
+include Job
+  def f
+  end
+end
+
 final=Combo.new
 final.bella
 final.ana
